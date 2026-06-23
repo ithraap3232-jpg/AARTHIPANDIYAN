@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     padding-bottom:80px;
+    padding-top:90px;
 
 }
 
@@ -110,6 +111,7 @@ section h2 {
 .hero h1 {
     font-size: 70px;
     font-weight: 800;
+    margin-top:40px;
 }
 
 .profile-pic {
@@ -753,12 +755,12 @@ section h2 {
 }
 
 nav{
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
 
-    width: 100%;
-
+    width: 80%;
+    margin: 20px auto;
     display:flex;
     justify-content:center;
     align-items:center;
