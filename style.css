@@ -942,6 +942,6 @@ form textarea {
 @media (max-width: 768px){
 
     nav{
-        display: non;
+        display: none;
     }
 }
