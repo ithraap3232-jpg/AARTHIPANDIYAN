@@ -408,32 +408,50 @@
 
     </section>
     <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
+   <section id="contact">
+    <h2>Contact Me</h2>
 
-        <p>Email: aarthip2323@gmail.com</p>
-        <p>Location: Tamil Nadu, India</p>
+    <p>Email: aarthip2323@gmail.com</p>
+    <p>Location: Tamil Nadu, India</p>
 
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="ramubala" required>
+    <form id="contactForm">
 
-            <label>Email</label>
-            <input type="email" placeholder="ramubala@example.com" required>
+        <label>Name</label>
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+        >
 
-            <label>Message</label>
-            <textarea placeholder="Type your message here... "rows="7" required></textarea>
-            <button type="submit">
-                Send Message
-            </button>
-        </form>
-    </section>
-    <footer>
-        <p>© 2026 Aarthi Pandiyan | All Rights Reserved</p>
-    </footer>
-    <script src="script.js"></script>
-    <script>
+        <label>Email</label>
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+        >
 
+        <label>Message</label>
+        <textarea
+            id="message"
+            placeholder="Type your message here..."
+            rows="7"
+            required
+        ></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Aarthi Pandiyan | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
 
         function openProject1() {
 
