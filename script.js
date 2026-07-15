@@ -109,7 +109,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
 
     try {
 
-        const response = await fetch("http://localhost:3000/contact", {
+        const response = await fetch("/api/contact", {
 
             method: "POST",
 
@@ -125,13 +125,14 @@ document.getElementById("contactForm").addEventListener("submit", async function
 
         alert(result.message);
 
-        document.getElementById("contactForm").reset();
+        if (response.ok) {
+            document.getElementById("contactForm").reset();
+        }
 
     } catch (error) {
 
+        console.error(error);
         alert("Server Connection Error");
-
-        console.log(error);
 
     }
 
