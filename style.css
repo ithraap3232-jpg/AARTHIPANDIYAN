@@ -521,9 +521,9 @@ section h2 {
 #skills .card,
 #technical-skills .card,
 #area-of-interest .card {
-    width: 160px;
-    min-height: 80px;
-    padding: 12px;
+    width: 130px;
+    min-height: 60px;
+    padding: 8px;
 
     display: flex;
     justify-content: center;
@@ -605,9 +605,10 @@ section h2 {
 }
 
 #technical-skills .card {
-    width: 150px;
-    min-height: 80px;
-
+    width: 130px;
+    min-height: 60px;
+    padding: 8px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -617,8 +618,8 @@ section h2 {
 }
 
 .skill-card {
-    width: 150px;
-    height: 80px;
+    width: 130px;
+    height: 60px;
 
     display: flex;
     justify-content: center;
@@ -627,7 +628,7 @@ section h2 {
     background: white;
     border: 1px solid #ddd;
 
-    border-radius: 15px;
+    border-radius: 12px;
 
     color: black;
     font-size: 18px;
